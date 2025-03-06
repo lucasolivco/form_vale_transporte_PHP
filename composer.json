@@ -1,0 +1,18 @@
+{
+    "name": "lucasolivco/form-vale-transporte",
+    "description": "Projeto de formulário para vale transporte com envio de e-mail.",
+    "type": "project",
+    "require": {
+      "php": ">=7.2",
+      "phpmailer/phpmailer": "^6.8"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+      "psr-4": {
+        "": "src/"
+      }
+    }
+  }
+  
