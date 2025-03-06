@@ -155,7 +155,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $erro = true;
         $message = 'Dados da empresa inválidos!';
     }
-
+    
     if ($erro) {
         header("Location: " . $_SERVER['PHP_SELF'] . "?message=" . urlencode($message) . "&type=" . urlencode('error'));
         exit;
