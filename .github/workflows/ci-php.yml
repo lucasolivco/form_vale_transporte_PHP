@@ -21,6 +21,9 @@ jobs:
       with:
         php-version: '8.2'
 
+    - name: Dar permissão de execução para o PHPUnit
+      run: chmod +x vendor/bin/phpunit
+
     - name: Instalar dependências do Composer
       run: composer install --no-interaction --prefer-dist
 
