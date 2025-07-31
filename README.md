@@ -49,13 +49,13 @@ composer install
 
 # Crie 1 .env e edite com suas credenciais
 
- Exemplo de conteúdo do .env:
- SMTP_HOST=smtp.exemplo.com
- SMTP_PORT=587
- SMTP_USER=usuario@smtp.com
- SMTP_PASSWORD=sua_senha
- ADMIN_EMAIL=admin@seudominio.com
- TIMEZONE=America/Sao_Paulo
+# Exemplo de conteúdo do .env:
+- SMTP_HOST=smtp.exemplo.com
+- SMTP_PORT=587
+- SMTP_USER=usuario@smtp.com
+- SMTP_PASSWORD=sua_senha
+- ADMIN_EMAIL=admin@seudominio.com
+- TIMEZONE=America/Sao_Paulo
 
 # Dê permissão de escrita nos arquivos de controle
 touch rate_limit.log rate_limit.lock
@@ -71,16 +71,6 @@ chmod 666 rate_limit.log rate_limit.lock
     - Colaboradores (vários registros: nome, transporte, valor, quantidade)
  3. Clique em "Enviar"
  4. Confira o e-mail recebido com o CSV em anexo
-
- ------------------------------------------------------------
-# 📁 Estrutura de Pastas
- ------------------------------------------------------------
- ├── index.php           # Arquivo principal
- ├── composer.json       # Dependências PHP
- ├── rate_limit.log      # Log de requests para rate limiting
- ├── rate_limit.lock     # Lockfile para sincronização
- ├── vendor/             # Dependências via Composer
- └── .env.example        # Exemplo de variáveis de ambiente
 
  ------------------------------------------------------------
 # 🔐 Segurança
