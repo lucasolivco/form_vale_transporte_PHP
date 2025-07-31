@@ -49,13 +49,13 @@ composer install
 
 # Crie 1 .env e edite com suas credenciais
 
-# Exemplo de conteúdo do .env:
-# SMTP_HOST=smtp.exemplo.com
-# SMTP_PORT=587
-# SMTP_USER=usuario@smtp.com
-# SMTP_PASSWORD=sua_senha
-# ADMIN_EMAIL=admin@seudominio.com
-# TIMEZONE=America/Sao_Paulo
+ Exemplo de conteúdo do .env:
+ SMTP_HOST=smtp.exemplo.com
+ SMTP_PORT=587
+ SMTP_USER=usuario@smtp.com
+ SMTP_PASSWORD=sua_senha
+ ADMIN_EMAIL=admin@seudominio.com
+ TIMEZONE=America/Sao_Paulo
 
 # Dê permissão de escrita nos arquivos de controle
 touch rate_limit.log rate_limit.lock
