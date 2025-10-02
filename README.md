@@ -1,5 +1,5 @@
 ============================================================================
-# 📘 README - Vale-Transporte Automático por E-mail
+# 📘 Vale-Transporte Automático por E-mail
 ============================================================================
 
 ------------------------------------------------------------
@@ -41,7 +41,7 @@
 # ⚙️ Instalação
 ------------------------------------------------------------
 # Clone o repositório
-git clone https://github.com/SEU_USUARIO/nome-do-repo.git
+git clone https://github.com/lucasolivco/form_vale_transporte_PHP.git
 cd nome-do-repo
 
 # Instale as dependências PHP
